@@ -146,7 +146,7 @@ function nikdev_scripts() {
 	wp_enqueue_style( 'bootstrap-theme', get_template_directory_uri() . '/assets/plugins/bootstrap/css/bootstrap-theme.min.css', _S_VERSION , true );
 	wp_enqueue_style( 'nikdev-bootstrap', get_template_directory_uri() . '/assets/plugins/bootstrap/css/bootstrap.min.css', _S_VERSION , true );
 	wp_enqueue_style( 'nikdev-style', get_template_directory_uri() . '/assets/css/styles.css', _S_VERSION , true );
-
+	wp_enqueue_style( 'nikdev-bootstrap', get_template_directory_uri() . '/assets/plugins/font-awesome/fonts/css/font-awesome.css', _S_VERSION , true );
 
 	wp_style_add_data( 'nikdev-style', 'rtl', 'replace' );
 	wp_enqueue_script( 'nikdev-jquery-1.12.3', get_template_directory_uri() . '/assets/plugins/jquery-1.12.3.min.js', _S_VERSION, true );

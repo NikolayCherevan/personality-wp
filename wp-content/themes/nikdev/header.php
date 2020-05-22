@@ -30,7 +30,7 @@
 			<h1 class="logo">
 				<a class="scrollto" href="#hero">
 					<span class="logo-icon-wrapper"><img class="logo-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-icon.svg" alt=""></span>
-					<span class="text"><span class="highlight">APP</span>KIT</span></a>
+					<a class="text"><a href ="/" class="highlight">ADV</a>DEV</a></a>
 			</h1>
 			<!--//logo-->
 			<nav class="main-nav navbar-right" role="navigation">
@@ -76,7 +76,7 @@
 	<!--//header-->
 	<div id="hero" class="hero-section">
 
-		<div id="hero-carousel" class="hero-carousel carousel carousel-fade slide" data-ride="carousel" data-interval="10000">
+		<div id="hero-carousel" class="hero-carousel carousel carousel-fade slide" data-ride="carousel" data-interval="0">
 
 			<div class="figure-holder-wrapper">
 				<div class="container">
@@ -102,9 +102,9 @@
 					<div class="item-content container">
 						<div class="item-content-inner">
 
-							<h2 class="heading">AppKit is the perfect front-end <br class="hidden-xs">template for app developers</h2>
-							<p class="intro">It helps developers to build beautiful and user-friendly web apps quickly and easily!</p>
-							<a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Get Started</a>
+							<h2 class="heading"> Лучшая доска для Ваших реферальных ссылок или рекламы </h2>
+							<p class="intro"> доска создана для поддержки виртуальных проектов, буста продаж. </p>
+							<a class="btn btn-primary btn-cta" href="#wow-modal-id-1" target="_blank"> Оставить заявку </a>
 
 						</div>
 						<!--//item-content-inner-->
@@ -117,9 +117,8 @@
 					<div class="item-content container">
 						<div class="item-content-inner">
 
-							<h2 class="heading">Angular Lover?</h2>
-							<p class="intro">AppKit also comes with an Angular JS version. It empowers developers to create UI components with very little code. Feeding data into AppKit directives is quick and easy.</p>
-							<a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Find out more</a>
+							<h2 class="heading">Здесь может быть Ваша реклама!</h2>
+							<a class="btn btn-primary btn-cta" href="#wow-modal-id-1" target="_blank"> Оставить заявку </a>
 
 						</div>
 						<!--//item-content-inner-->
@@ -131,9 +130,8 @@
 					<div class="item-content container">
 						<div class="item-content-inner">
 
-							<h2 class="heading">Ready to build outstanding apps?</h2>
-							<p class="intro">Get AppKit today and it will supercharge your development. It's a must-have for any developers who are serious about building great products!</p>
-							<a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Try it now</a>
+							<h2 class="heading">Здесь может быть Ваша реклама!</h2>
+							<a class="btn btn-primary btn-cta" href="#wow-modal-id-1" target="_blank"> Оставить заявку </a>
 
 						</div>
 						<!--//item-content-inner-->

@@ -7,8 +7,14 @@
 * License: Creative Commons Attribution 3.0 License
 */
 /* Theme default */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif!important;
+}
 body {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Monstserrat', arial, sans-serif!important;
   color: #494d55;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -762,6 +768,73 @@ a.btn-cta {
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
+.hero-carousel .carousel-inner .item {
+  background: none;
+  opacity: 0.9;
+  background-color: black!important;
+}
+.section-title.with-bg{
+  color: white!important;
+}
+.section-title {
+  color: black!important;
+}
+.item-inner {
+  background: #373434!important;
+  border: solid 2px black;
+}
+.pricing-wrapper .item-3 .item-top{
+  color: #40B9BC;
+  
+}
+.pricing-wrapper a.btn {
+  background: white;
+  color: black;
+}
+h1, h2, h3, h4 { 
+  color: currentColor!important;
+}
+.story p {
+  font-size: x-large;
+}
+.contact-content .p-bg {
+    font-size: larger;
+    font-weight: 600;
+    background: black;
+    padding: 100px;
+    opacity: 0.5;
+    z-index: 1;
+}
+.contact-content .p-bg p{
+  z-index: 3;
+}
+.carousel-inner { 
+  height: 420px;
+}
+.hero-carousel .carousel-inner .item {
+  height: 420px;
+}
+.hero-carousel {
+  height: 420px;
+  color: #fff;
+
+}
+.hero-section {
+  height: 420px;
+  min-height: 420px;
+}
+.blog ul {
+  list-style-type: none ;
+  margin: 0;
+  padding: 0;
+}
+.blog .categories {
+  text-align: center;
+}
+.blog .cat-item {
+  text-align: left;
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .navbar-collapse {
@@ -799,10 +872,10 @@ a.btn-cta {
     width: 300px;
   }
   .hero-carousel .carousel-inner .heading {
-    font-size: 26px;
+    font-size: 20px;
   }
   .hero-carousel .carousel-inner .item-content-inner {
-    padding-top: 100px;
+    padding-top: 70px;
   }
   .hero-section .figure-holder .figure-image {
     width: inherit;
@@ -822,13 +895,13 @@ a.btn-cta {
     margin-bottom: 0;
   }
   .hero-carousel {
-    height: 660px;
+    height: 420px;
   }
   .hero-section .carousel-inner {
-    height: 660px;
+    height: 420px;
   }
   .hero-carousel .carousel-inner .item {
-    height: 660px;
+    height: 420px;
   }
   .testimonials-section .item .profile-image {
     width: 60px;
@@ -864,7 +937,7 @@ a.btn-cta {
   }
   .hero-carousel .carousel-inner .item-content-inner {
     max-width: 300px;
-    padding-top: 120px;
+    padding-top: 80px;
   }
   .team-section .item-inner {
     min-height: 515px;
@@ -897,6 +970,7 @@ a.btn-cta {
     min-height: 490px;
   }
 }
+
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .hero-section .figure-holder .figure-image {
