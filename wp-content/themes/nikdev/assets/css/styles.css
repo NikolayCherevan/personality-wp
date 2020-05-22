@@ -835,6 +835,17 @@ h1, h2, h3, h4 {
 .blog .cat-item {
   text-align: left;
 }
+.wrapp {
+  display: flex;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.wrapp p {
+  padding: 15px;
+}
+.container {
+  overflow: hidden;
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .navbar-collapse {
