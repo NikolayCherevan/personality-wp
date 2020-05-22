@@ -839,6 +839,7 @@ h1, h2, h3, h4 {
   display: flex;
   margin: 0 -15px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .wrapp p {
   padding: 15px;
@@ -846,6 +847,49 @@ h1, h2, h3, h4 {
 .container {
   overflow: hidden;
 }
+.wrapp img {
+  height: 100%;
+  min-width: 240px;
+  object-fit: cover;
+  max-width: 240px;
+}
+.wpcf7-form button, input, select, textarea {
+  border: 1px solid #3452;
+  width: 100%;
+}
+.wpcf7-form p label {
+  width: 100%;
+}
+.wow-modal-window div {
+  box-sizing: border-box;
+  padding: 25px;
+}
+.wpcf7-form p:nth-child(6){
+  text-align: center;
+}
+.wpcf7-form p:nth-child(6) input{
+  padding: 10px 30px;
+  background: #40babd;
+  border: 1px solid #40babd;
+  color: #fff;
+}
+#wow-modal-close-1.mw-close-btn.text:before {
+  content: ''!important;
+  background-image: url('../images/close.svg')!important;
+  width: 10px;
+  /* background: none!important; */
+  height: 10px;
+  background-size: contain!important;
+  background-repeat: no-repeat!important;
+  left: -10px;
+  top: 10px;
+}
+#wow-modal-close-1.mw-close-btn.text:hover:before {
+  background-position: right bottom;
+  left: -10px;
+  top: 10px;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .navbar-collapse {

@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-    
     /* ======= Fixed header when scrolled ======= */
     
     $(window).bind('scroll', function() {

@@ -102,8 +102,8 @@
 					<div class="item-content container">
 						<div class="item-content-inner">
 
-							<h2 class="heading"> Лучшая доска для Ваших реферальных ссылок или рекламы </h2>
-							<p class="intro"> доска создана для поддержки виртуальных проектов, буста продаж. </p>
+							<h2 class="heading"> Лучший сервис для веб-девелопера </h2>
+							<p class="intro"> доска создана для поддержки виртуальных проектов, буста продаж, поиска информации  </p>
 							<a class="btn btn-primary btn-cta" href="#wow-modal-id-1" target="_blank"> Оставить заявку </a>
 
 						</div>

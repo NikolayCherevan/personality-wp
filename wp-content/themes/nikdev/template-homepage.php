@@ -7,7 +7,12 @@ get_header(); ?>
 
 <div id="pricing" class="pricing-section">
     <div class="container">
-        <h2 class="section-title  text-center"> Партнерские программы для веб-дева </h2>
+        <h2 class="section-title  text-center"> Статьи, которые могу заинтересовать </h2>
+    </div>
+</div>
+<div id="pricing" class="pricing-section">
+    <div class="container">
+        <h2 class="section-title  text-center"> Партнерские программы для веб-девелопера </h2>
         <div class="wrapp">
             <p> <a href="https://beget.com/?id=1244009" target="_blank"><img src="https://cp.beget.com/promo_data/static/static100x100_4.png" border="0"></a></p>
             <p> <a href="https://everve.net/ref/210241/" target="_blank" title="Everve - Социальное продвижение 80-го уровня от Everve"><img src="https://everve.net/pub/everve_dark_200x300_optimized_ru.gif" width="200" height="300" alt="Everve - Социальное продвижение 80-го уровня от Everve" /></a></p>
@@ -98,7 +103,7 @@ get_header(); ?>
             </div>
 
         </div>
-        <a class="btn btn-cta btn-primary" href=""> Связаться </a>
+        <a class="btn btn-cta btn-primary" href="#wow-modal-id-1"> Связаться </a>
 
     </div>
     <!--//container-->
