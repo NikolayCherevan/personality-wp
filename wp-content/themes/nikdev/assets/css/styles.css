@@ -895,6 +895,24 @@ h1, h2, h3, h4 {
   left: -10px;
   top: 10px;
 }
+.blog ul {
+  display: flex;
+  margin: 0 -15px;
+}
+.blog ul .wrapper {
+  padding: 15px;
+}
+.blog ul .wrapper div{
+  text-align: center;
+}
+.blog ul .wrapper .cat {
+  display: block;
+  min-width: 125px;
+  height: 125px;
+}
+.blog ul .wrapper .cat .cat6{
+
+}
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
