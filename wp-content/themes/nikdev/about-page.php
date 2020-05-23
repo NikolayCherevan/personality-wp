@@ -16,7 +16,7 @@ get_header(); ?>
                     <br> <br> <b> Помимо этого</b>, я планирую размещать на сайте множество полезной информации для тех, кто интересуется разработкой и программированием
                 </p>
             </div>
-            <a class="btn btn-cta btn-primary" href=""> Связаться </a>
+            <a class="btn btn-cta btn-primary" href="#wow-modal-id-1"> Связаться </a>
         </div>
     </div><!--//team-section-->
     

@@ -8,6 +8,8 @@ get_header(); ?>
     <div class="container">
         <h2 class="section-title text-center">
             Категории постов  </h2>
+
+
         <ul>
             <?php
             $args = array(

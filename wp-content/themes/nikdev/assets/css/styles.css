@@ -842,6 +842,9 @@ h1, h2, h3, h4 {
 }
 .wrapp p {
   padding: 15px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
 }
 .container {
   overflow: hidden;
@@ -851,6 +854,10 @@ h1, h2, h3, h4 {
   max-width: 240px;
   width: 125px;
   height: 180px;
+}
+.pricing-section {
+  padding-top: 90px;
+  padding-bottom: 0px!important;
 }
 .wpcf7-form button, input, select, textarea {
   border: 1px solid #3452;
