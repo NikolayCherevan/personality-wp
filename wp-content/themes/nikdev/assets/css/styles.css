@@ -939,6 +939,58 @@ h1, h2, h3, h4 {
   background-image: url(../images/icons-category/information-icon.png);
 }
 
+.posts-list .post-thumbnail{
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+}
+.posts-list .post-thumbnail img{
+  width: 100%;
+  height: 100%;
+}
+.posts-list .page-header {
+  border: none;
+}
+.posts-list .posts-wrapp {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.posts-list .posts-wrapp article {
+  padding: 15px;
+  max-width: 25%;
+  overflow: hidden;
+}
+.posts-list .date-status {
+  color: #26282c;
+}
+.posts-list .entry-content p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 250px;
+}
+.posts-list .cat-links {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: small;
+  border-radius: 2px;
+  padding: 0px 10px;
+  background: aliceblue;
+  box-shadow: 1px 1px 3px;
+}
+.posts-list .cat-links a {
+  color: currentColor;
+}
+.posts-list .post-edit-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: #26282c;
+  border: solid 1px black;
+  padding: 0 20px;
+}
+.posts-list .comments-wrapp {
+  text-align: center;
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .navbar-collapse {

@@ -14,7 +14,7 @@ if ( ! function_exists( 'nikdev_posted_on' ) ) :
 	function nikdev_posted_on() {
 		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
 		if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
+			$time_string = '<div class="time-wrapped"> <span class="date-status"> Опубликовано: </span>  <time class="entry-date published" datetime="%1$s">%2$s</time><div class="updated-text"> <span class="date-status"> Обновлено: </span><time class="updated" datetime="%3$s">%4$s</time></div></div>';
 		}
 
 		$time_string = sprintf(
@@ -27,7 +27,7 @@ if ( ! function_exists( 'nikdev_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( 'Posted on %s', 'post date', 'nikdev' ),
+			esc_html_x( ' %s', 'post date', 'nikdev' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
@@ -63,41 +63,41 @@ if ( ! function_exists( 'nikdev_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'nikdev' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'nikdev' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				printf( '<div> <div class="cat-links">' . esc_html__( ' %1$s', 'nikdev' ) . '</div></div>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			}
 
 			/* translators: used between list items, there is a space after the comma */
 			$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'nikdev' ) );
 			if ( $tags_list ) {
 				/* translators: 1: list of tags. */
-				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'nikdev' ) . '</span>', $tags_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				printf( '<div class="tags-links">' . esc_html__( 'Tagged %1$s', 'nikdev' ) . '</div>', $tags_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			}
 		}
 
 		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-			echo '<span class="comments-link">';
-			comments_popup_link(
-				sprintf(
-					wp_kses(
-						/* translators: %s: post title */
-						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'nikdev' ),
-						array(
-							'span' => array(
-								'class' => array(),
-							),
-						)
-					),
-					wp_kses_post( get_the_title() )
-				)
-			);
-			echo '</span>';
+			// echo '<div class="comments-link">';
+			// comments_popup_link(
+			// 	sprintf(
+			// 		wp_kses(
+			// 			/* translators: %s: post title */
+			// 			__( '<span class="screen-reader-text">  коментировать  </span>', 'nikdev' ),
+			// 			array(
+			// 				'span' => array(
+			// 					'class' => array(),
+			// 				),
+			// 			)
+			// 		),
+			// 		wp_kses_post( get_the_title() )
+			// 	)
+			// );
+			// echo '</div>';
 		}
 
 		edit_post_link(
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Edit <span class="screen-reader-text">%s</span>', 'nikdev' ),
+					__( 'Редактировать <span class=" screen-reader-text"></span>', 'nikdev' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -106,8 +106,8 @@ if ( ! function_exists( 'nikdev_entry_footer' ) ) :
 				),
 				wp_kses_post( get_the_title() )
 			),
-			'<span class="edit-link">',
-			'</span>'
+			'<div class="comments-wrapp"> <span class="edit-link">',
+			'</span></div>'
 		);
 	}
 endif;
