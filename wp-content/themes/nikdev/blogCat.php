@@ -16,7 +16,7 @@ get_header(); ?>
         foreach ($categories as $category) {
             $cat_link = get_category_link($category);
             // you can also use $category->slug
-            $menu .= '<div class="wrapper"> <div class="'. " cat cat". $category->term_id . '" > </div><div> <a  href = "'  . $cat_link .  '" class="'. "cat". $category->term_id . '">' . $category->name . '</a></div></div>';
+            $menu .= '<a  href = "'  . $cat_link .  '" class="wrapper"> <div class="'. " cat cat". $category->term_id . '" > </div><div class="text-card"> <div  class="'. "cat". $category->term_id . '">' . $category->name . '</div></div></a>';
         }
         $menu .= '</ul>';
         echo $menu;

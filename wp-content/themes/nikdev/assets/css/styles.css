@@ -898,9 +898,11 @@ h1, h2, h3, h4 {
 .blog ul {
   display: flex;
   margin: 0 -15px;
+  flex-wrap: wrap;
 }
 .blog ul .wrapper {
-  padding: 15px;
+  padding: 20px 40px;
+  text-decoration: none;
 }
 .blog ul .wrapper div{
   text-align: center;
@@ -909,9 +911,32 @@ h1, h2, h3, h4 {
   display: block;
   min-width: 125px;
   height: 125px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.blog ul .wrapper .cat .cat6{
+.blog ul .wrapper .text-card {
+  font-size: 20px;
+  padding: 20px 0;
+  text-transform: uppercase;
 
+}
+.blog ul .wrapper .text-card div{
+  color: #26282c;
+  text-decoration: none;
+}
+
+.blog ul .wrapper .cat.cat6 {
+  background-size: contain;
+  background-image: url(../images/icons-category/new-idea.png);
+}
+.blog ul .wrapper .cat.cat5 {
+  background-size: contain;
+  background-image: url(../images/icons-category/morning-work.png);
+}
+.blog ul .wrapper .cat.cat4 {
+  background-size: contain;
+  background-image: url(../images/icons-category/information-icon.png);
 }
 
 /* Extra small devices (phones, less than 768px) */
