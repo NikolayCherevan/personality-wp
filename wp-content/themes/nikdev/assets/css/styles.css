@@ -1150,9 +1150,9 @@ textarea {
   width: 100%;
   object-fit: cover;
 }
-.posts-list .posts-wrapp article img {
 
-}
+.posts-list .posts-wrapp article img {}
+
 .posts-list .posts-wrapp article .cat-links {
   width: auto;
 }
@@ -1169,9 +1169,11 @@ textarea {
   z-index: -1;
   display: block;
 }
+
 .posts-list .posts-wrapp article .entry-header {
   min-height: 400px;
 }
+
 .posts-list .posts-wrapp article {
   position: relative;
   width: 100%;
@@ -1182,24 +1184,28 @@ textarea {
   flex-direction: column;
   align-items: center;
 }
+
 .posts-list .posts-wrapp article .entry-title {
   margin: 0;
 }
+
 .posts-list .posts-wrapp article .entry-wrapp {
   margin: 0;
   padding: 15px;
   background: darkturquoise;
 }
-.posts-list .posts-wrapp article .entry-wrapp *{
+
+.posts-list .posts-wrapp article .entry-wrapp * {
   color: #26282c;
   text-decoration: none;
 }
+
 .posts-list .posts-wrapp article .entry-footer-wrapp {
   padding: 15px;
   background: darkturquoise;
 }
 
-.posts-list .posts-wrapp article .entry-footer-wrapp *{
+.posts-list .posts-wrapp article .entry-footer-wrapp * {
   color: #26282c;
   text-decoration: none;
 }
@@ -1359,9 +1365,11 @@ textarea {
     text-align: left;
     padding-left: 30px;
   }
+
   .posts-list .posts-wrapp .post-thumbnail {
     min-width: fit-content;
   }
+
   .feature-nav>li {
     font-size: 15px;
   }
