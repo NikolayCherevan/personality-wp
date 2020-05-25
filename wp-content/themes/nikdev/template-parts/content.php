@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php
+		<div class="entry-wrapp"> <?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
@@ -26,12 +26,13 @@
 				nikdev_posted_by();
 				?>
 			</div><!-- .entry-meta -->
+			</div>
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<?php nikdev_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-footer-wrapp"><div class="entry-content">
 		<?php
 		the_content(
 			sprintf(
@@ -56,8 +57,9 @@
 		);
 		?>
 	</div><!-- .entry-content -->
-
+	
 	<footer class="entry-footer">
 		<?php nikdev_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+	</div>
 </article><!-- #post-<?php the_ID(); ?> -->

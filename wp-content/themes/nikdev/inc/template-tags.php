@@ -63,7 +63,7 @@ if ( ! function_exists( 'nikdev_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'nikdev' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<div> <div class="cat-links">' . esc_html__( ' %1$s', 'nikdev' ) . '</div></div>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				printf( '<div> Теги: <div class="cat-links">' . esc_html__( ' %1$s', 'nikdev' ) . '</div></div>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			}
 
 			/* translators: used between list items, there is a space after the comma */

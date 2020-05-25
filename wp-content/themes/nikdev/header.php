@@ -103,7 +103,7 @@
 						<div class="item-content-inner">
 
 							<h2 class="heading"> Лучший сервис для веб-девелопера </h2>
-							<p class="intro"> доска создана для поддержки виртуальных проектов, буста продаж, поиска информации  </p>
+							<p class="intro"> Сайт создан для поддержки виртуальных проектов, буста продаж, поиска информации  </p>
 							<a class="btn btn-primary btn-cta" href="#wow-modal-id-1" target="_blank"> Оставить заявку </a>
 
 						</div>

@@ -8,6 +8,16 @@ get_header(); ?>
 <div id="pricing" class="pricing-section">
     <div class="container">
         <h2 class="section-title  text-center"> Статьи, которые могу заинтересовать </h2>
+        <ul class="populargb">
+<?php $populargb = new WP_Query('showposts=5&meta_key=post_views_count&orderby=meta_value_num' );
+while ( $populargb->have_posts() ) {
+    $populargb->the_post(); ?>
+<li>
+<div class="mail"><?php the_post_thumbnail(); ?></div>
+<a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+</li>
+<?php } ?>
+</ul>
     </div>
 </div>
 <div id="pricing" class="pricing-section">
