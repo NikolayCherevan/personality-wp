@@ -25,7 +25,7 @@ while ( $populargb->have_posts() ) {
         <h2 class="section-title  text-center"> Партнерские программы для веб-девелопера </h2>
         <div class="wrapp">
             <p> <a href="https://beget.com/?id=1244009" target="_blank"><img src="https://cp.beget.com/promo_data/static/static100x100_4.png" border="0"></a></p>
-            <p> <a href="https://surfe.be/ext/429454" target="_blank"><img src="//static.surfe.be/images/banners/ru/240x400_1.gif" alt="Surfe.be - Сервис размещения баннерной рекламы"></a></p>
+
         </div>
 
     </div>
