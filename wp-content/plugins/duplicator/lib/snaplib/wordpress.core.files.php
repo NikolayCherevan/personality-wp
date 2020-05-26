@@ -607,31 +607,31 @@ self::$corePathList = array(
 				'wp-pointer-rtl.min.css' => array(),
 				'dist' => array(
 					'format-library' => array(
-						'style.min.css' => array(),
+
 						'style-rtl.css' => array(),
 						'style.css' => array(),
 						'style-rtl.min.css' => array()
 					),
 					'edit-post' => array(
-						'style.min.css' => array(),
+
 						'style-rtl.css' => array(),
 						'style.css' => array(),
 						'style-rtl.min.css' => array()
 					),
 					'list-reusable-blocks' => array(
-						'style.min.css' => array(),
+
 						'style-rtl.css' => array(),
 						'style.css' => array(),
 						'style-rtl.min.css' => array()
 					),
 					'components' => array(
-						'style.min.css' => array(),
+
 						'style-rtl.css' => array(),
 						'style.css' => array(),
 						'style-rtl.min.css' => array()
 					),
 					'block-library' => array(
-						'style.min.css' => array(),
+
 						'style-rtl.css' => array(),
 						'theme.min.css' => array(),
 						'theme.css' => array(),
@@ -645,7 +645,7 @@ self::$corePathList = array(
 						'style-rtl.min.css' => array()
 					),
 					'editor' => array(
-						'style.min.css' => array(),
+	
 						'style-rtl.css' => array(),
 						'editor-styles-rtl.min.css' => array(),
 						'editor-styles.css' => array(),
@@ -655,7 +655,7 @@ self::$corePathList = array(
 						'editor-styles.min.css' => array()
 					),
 					'nux' => array(
-						'style.min.css' => array(),
+
 						'style-rtl.css' => array(),
 						'style.css' => array(),
 						'style-rtl.min.css' => array()
