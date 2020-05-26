@@ -160,7 +160,6 @@ function nikdev_scripts() {
 	wp_enqueue_script( 'nikdev-jquery-1.12.3', get_template_directory_uri() . '/assets/plugins/jquery-1.12.3.min.js', _S_VERSION, true );
 	wp_enqueue_script( 'nikdev-main-min', get_template_directory_uri() . '/assets/js/min/main-min.js', _S_VERSION, true );
 	wp_enqueue_script( 'nikdev-bootstrap.min', get_template_directory_uri() . '/assets/plugins/bootstrap/js/bootstrap.min.js', _S_VERSION, true );
-	wp_enqueue_script( 'nikdev-jquery.scrollTo.min', get_template_directory_uri() . '/assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js', _S_VERSION, true );
 
 
 
