@@ -287,7 +287,6 @@ if (!empty($unespectOutput)) {
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/lite01_favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="mask-icon" href="favicon/lite01_safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="favicon/lite01_favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
